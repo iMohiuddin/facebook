@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 229, 240);
+}
+.main{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(59, 89, 152);
+    box-shadow: 0px 0px 5px 1px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.face{
+    font-size: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 2%;
+    font-weight: 700;
+}
+.pk,.tr{
+    top: 2%;
+    display: block;
+    position: absolute;
+    left: 60%;
+    color: white;
+}
+.tr{
+    position: absolute;
+    left: 75%;
+    color: white;
+}
+.pk>input{
+    border: 1px solid black;
+    outline: none;
+    height: 25px;
+}
+.tr>input{
+    border: 1px solid black;
+    outline: none;
+    height: 25px;
+}
+.button>a>input{
+    width: 50px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 88%;
+    top: 5%;
+    height: 25px;
+    background-color: rgb(66, 111, 194);
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    transition: .5s all;
+}
+
+.button>a>input:hover{
+    background-color: rgb(54, 88, 153)
+
+}
+.forget>a{
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    color: rgb(188, 188, 228);
+
+}
+.peo .people{
+    width: 380px;
+    height: 30px ;
+    font-size: 20px;
+    position: absolute;
+    left: 15%;
+    top: 17%;
+}
+.img>img{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+.sidesigup{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 55%;
+}
+h1{
+    padding: 30px 0px 10px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+h3{
+    padding-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+.in>input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(189, 199, 216);
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.in>input:hover{
+    border: 1px solid red;
+}
+.rt>input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(189, 199, 216);
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.dob>p{
+    color: rgb(125, 162, 179);
+    position: absolute;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif ;
+
+}
+.rt>input:hover{
+    border: 1px solid red;
+}
+.day,.month,.year{
+    width:70px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    
+}
+.Gender>p{
+    color: rgb(125, 162, 179);
+    position: absolute;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif ;
+}
+.Gender{
+    margin-top:-10px;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 15px;
+    margin-bottom: 18px;
+    margin-top: -50px;
+    
+
+}
+.gtl{
+    width: 350px;
+}
+.gtl>p{
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(136, 135, 135);
+    padding: 0;
+    margin: 0;
+    margin-bottom:-20px;
+}
+.gtl>p>a{
+    color: rgb(56, 56, 248);
+}
+.singup{
+    width: 150px;
+    height: 35px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    background-color: #49753b ;
+    outline:#49753b ;
+    border:2px solid #49753b;
+    box-shadow: 0px 0px 5px 1px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s all;   
+}
+.singup:hover{
+    background-color:#6AA556 ;
+}
+.last{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(126, 126, 126);
+}
+.last>a{
+    color: rgb(67, 67, 170);
+}
+.footer{
+    position: absolute;
+    bottom: -250px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.top{
+    padding: 10px 200px;
+    position: relative;
+    margin-top: 40px;
+}
+.top>a{
+    color: rgb(81, 109, 187);
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.to{
+    margin-top: 15px;
+    opacity: 50%;
+    
+}
+.middle{
+    padding: 10px 200px;
+}
+.middle>a{
+    padding-left: 7px;
+    line-height: 25px;
+    color: rgb(60, 76, 163);
+}
+.bottom{
+    padding: 10px 200px;
+    color: rgb(114, 111, 111);
+}
